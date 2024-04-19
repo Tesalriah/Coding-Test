@@ -8,11 +8,7 @@ public class Main{
         String str = "";
 
         while((str = br.readLine()) != null){
-            bw.write(str + "\n");
-            bw.flush();
+            System.out.println(str);
         }
-        br.close();
-        bw.close();
-
     }
 }
