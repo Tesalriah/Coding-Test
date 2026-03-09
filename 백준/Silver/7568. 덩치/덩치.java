@@ -24,13 +24,7 @@ public class Main {
                 }
             }
         }
-
-//        for(int i = 0; i < n; i++){
-//            for(int j = 0; j < 3; j++){
-//                System.out.print(arr[i][j] + " ");
-//            }
-//        }
-
+        
         for(int i = 0; i < n; i++){
             System.out.print(arr[i][2] + " ");
         }
