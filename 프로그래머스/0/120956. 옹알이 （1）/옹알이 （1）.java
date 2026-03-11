@@ -4,9 +4,7 @@ class Solution {
         String[] can = {"aya", "ye", "woo", "ma"};
         
         for(int k=0; k<babbling.length; k++){
-            String str = babbling[k];
             String say = babbling[k];
-            int cnt = 0;
             for(int i=0; i<can.length; i++){
                 say = say.replace(can[i], " ");
             }
