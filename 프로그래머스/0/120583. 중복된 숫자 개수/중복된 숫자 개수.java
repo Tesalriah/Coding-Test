@@ -1,7 +1,11 @@
-import java.util.*;
-
 class Solution {
-    public int solution(int[] array, int n) {
-        return (int)Arrays.stream(array).filter(i -> i == n).count();
+    public int solution(int[] array, int n) throws Exception{
+        int answer = 0;
+        for(int i : array){
+            if(n == i){
+                answer++;
+            }
+        }
+        return answer;
     }
 }
