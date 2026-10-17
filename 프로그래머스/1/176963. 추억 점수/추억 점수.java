@@ -13,8 +13,9 @@ class Solution {
             int result = 0;
             for(int j=0; j<photo[i].length; j++){
                 String photoName = photo[i][j];
-                if(map.get(photoName) != null){
-                    result += map.get(photoName);
+                Integer score = map.get(photoName);
+                if(score != null){
+                    result += score;
                 }
             }
             answer[i] = result;
